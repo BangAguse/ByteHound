@@ -1,0 +1,12 @@
+[package]
+name = "bytehound-scanner"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "bytehound_scanner"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+aho-corasick = "1.1"
+memmap2 = "0.9"

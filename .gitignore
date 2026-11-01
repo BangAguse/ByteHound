@@ -1,0 +1,13 @@
+# Build outputs
+/bin/
+/scanner/target/
+
+# Local editor and machine-specific settings
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated scan reports may contain private file paths or device details
+/scan-report.*
+/*-report.*
+/phone-report.*
